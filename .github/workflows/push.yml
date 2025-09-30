@@ -17,3 +17,4 @@ jobs:
           folder: . # The folder the action should deploy.
           config: baseUrl=/
  
+ 
