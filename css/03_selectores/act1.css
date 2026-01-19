@@ -1,15 +1,15 @@
-h1 {
-    color:red;
+.rojo {
+  color: red;
 }
-h1 {
-    color:greenyellow
+
+.verde {
+  color: greenyellow;
 }
-h3 {
-    color:yellow
+
+.amarillo {
+  color: yellow;
 }
-h4 {
-    color:green
-}
-h5 {
-    color:red
+
+.verde-oscuro {
+  color: green;
 }
