@@ -1,0 +1,75 @@
+
+.header {
+    border-bottom: 1px solid white;
+    margin-bottom: 20px;
+}
+
+.nav__list {
+    list-style: none;
+    padding: 0;
+}
+
+.nav__link {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+
+.contenido {
+    display: flex;
+    gap: 20px;
+    padding: 20px;
+}
+
+.comentarios {
+    width: 70%;
+}
+
+
+.comentario {
+    border: 1px solid white;
+    padding: 10px;
+    margin-bottom: 15px;
+}
+
+.comentario__autor {
+    font-weight: bold;
+}
+
+.comentario__fecha {
+    font-size: 0.8em;
+    color: gray;
+}
+
+.comentario__texto {
+    margin-top: 10px;
+}
+
+
+.aside {
+    width: 30%;
+}
+
+.formulario {
+    border: 1px solid white;
+    padding: 15px;
+}
+
+.formulario__input,
+.formulario__textarea {
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 5px;
+}
+
+
+.boton {
+    border-radius: 2rem;
+    background: white;
+    color: black;
+    border: 1px solid black;
+    padding: 6px 12px;
+    cursor: pointer;
+}
+
