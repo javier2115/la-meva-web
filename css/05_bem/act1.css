@@ -3,7 +3,7 @@
   align-items: center;
   justify-content: space-between;
   padding: 16px 32px;
-  background-color: #222;
+  background-color: black;
   color: white;
 }
 
@@ -35,7 +35,7 @@
 .search-form button {
   padding: 6px 10px;
   border: none;
-  background-color: #555;
+  background-color:grey;
   color: white;
   border-radius: 0 4px 4px 0;
   cursor: pointer;
