@@ -1,0 +1,28 @@
+body {
+    font-family: Arial, sans-serif;
+    color: black;
+}
+
+ .kodak {
+    color: gold;
+}
+
+ .azul {
+    background-color: #1278AF;
+    color: white;
+    padding: 2px 4px;
+}
+
+ .morado {
+    color: rgb(128, 0, 128);
+}
+
+ 
+.verde {
+    background-color: rgba(0, 128, 0, 0.8);
+    color: white;
+    mix-blend-mode: multiply;
+    padding: 2px 4px;
+}
+
+ 
