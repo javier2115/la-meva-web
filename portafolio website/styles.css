@@ -134,3 +134,8 @@ section{
     transform: translateY(-3px);
     box-shadow: 0 5px 15px rgba(108, 99, 255, 0.3);
 }
+
+.hero-content{
+    display: flex;
+    justify-content: space-between;
+}
