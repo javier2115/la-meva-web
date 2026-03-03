@@ -85,12 +85,3 @@
 }
 
 
-@media (max-width: 768px) {
-    .contacto h1 {
-        font-size: 2.2rem;
-    }
-
-    .formulario {
-        padding: 1.5rem;
-    }
-}
