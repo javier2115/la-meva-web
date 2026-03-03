@@ -43,7 +43,7 @@ img{
     display: block;
 }
 
-/* HEADER */
+
 header{
     position: fixed;
     top: 0;
@@ -84,7 +84,7 @@ header{
     padding-bottom: 5px;
 }
 
-/* Línea animada */
+
 .nav-links a::after{
     content: '';
     position: absolute;
@@ -100,7 +100,7 @@ header{
     width: 100%;
 }
 
-/* Página activa */
+
 .nav-links .active {
     color: var(--primary-color);
 }
@@ -109,14 +109,14 @@ header{
     width: 100%;
 }
 
-/* SECCIONES */
+
 section{
     padding: 6rem 5%;
     max-width: 1400px;
     margin: 0 auto;
 }
 
-/* HERO */
+
 .hero{
     display: flex;
     justify-content: space-between;
@@ -201,7 +201,7 @@ section{
     box-shadow: 0 0 35px rgba(108, 99, 255, 0.5);
 }
 
-/* EXPERIENCIA */
+
 .timeline{
     position: relative;
     max-width: 800px;
@@ -264,7 +264,7 @@ section{
     border-radius: 20px;
 }
 
-/* PROYECTOS */
+
 .projects-container{
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
@@ -328,7 +328,7 @@ section{
     color: var(--primary-color);
 }
 
-/* FOOTER */
+
 footer{
     padding: 2rem 0;
     text-align: center;
