@@ -18,6 +18,7 @@
 html {
     scroll-behavior: smooth;
     scrollbar-color: var(--primary-color) var(--dark-bg);
+    scroll-padding-top: 100px; /* evita que el header tape contenido */
 }
 
 body {
@@ -83,6 +84,7 @@ header{
     padding-bottom: 5px;
 }
 
+/* Línea animada */
 .nav-links a::after{
     content: '';
     position: absolute;
@@ -95,6 +97,15 @@ header{
 }
 
 .nav-links a:hover::after{
+    width: 100%;
+}
+
+/* Página activa */
+.nav-links .active {
+    color: var(--primary-color);
+}
+
+.nav-links .active::after {
     width: 100%;
 }
 
