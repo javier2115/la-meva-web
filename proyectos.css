@@ -1,6 +1,6 @@
 @import url('styles.css');
 
-/* TIMELINE PARA PROYECTOS */
+
 .timeline-proyectos {
     padding-top: 8rem;
     max-width: 900px;
@@ -13,7 +13,7 @@
     margin-bottom: 3rem;
 }
 
-/* Copiado de experiencia */
+
 .timeline {
     position: relative;
     max-width: 800px;
