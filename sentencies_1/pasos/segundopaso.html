@@ -1,0 +1,15 @@
+<canvas id="miCanvas" width="500" height="300" style="border: 1px solid black;"></canvas>
+
+<script>
+  let canvas = document.getElementById("miCanvas");
+  let ctx = canvas.getContext("2d");
+
+  // Definir color blau
+  ctx.fillStyle = "blue";
+  // Dibuixar rectangle (x=50, y=50, amplada=150, alçada=100)
+  ctx.fillRect(150, 250, 150, 100);
+
+  // Definir color vermell semitransparent
+  ctx.fillStyle = "rgba(255, 0, 0, 0.5)";
+  ctx.fillRect(100, 80, 100, 100);
+</script>
