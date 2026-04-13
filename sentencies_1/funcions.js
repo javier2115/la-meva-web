@@ -6,20 +6,24 @@ function benvingut(){
 }
 var missatge = benvingut();
 console.log(missatge);
-/*
+
 //Parts d'una funció
 //entrades(arguments), codi, sortida(return)
+
 
 function quadratNumero(num){
     var resultat = num * num;
     return resultat;
 }
 
-var numero = 3;
-var valor = quadratNumero(numero);
-console.log(valor);
-console.log(quadratNumero(5));
+var numero = 7;
+var c=quadratNumero(quadratNumero(numero));
+console.log(c);
+var suma = 4 + multiplicarDosQuadrats(numero);
+console.log(suma);
+var mquadrts
 
+//console.log(quadratNumero(5));.
 //Funció que converteix de graus Fahrenheit a Celsius
 // 32F = 0C, 68F = 20C.
 // C = (F - 32) * 5/9
@@ -33,7 +37,6 @@ var tempUn = convertirFahrenheitACelsius(32);
 var tempDos = convertirFahrenheitACelsius(68);
 console.log(tempUn);
 console.log(tempDos);
-*/
 
 /*function calcularEdat(anyNaixement){
     return 2019 - anyNaixement;

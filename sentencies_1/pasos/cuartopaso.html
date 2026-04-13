@@ -1,0 +1,27 @@
+<canvas id="miCanvas" width="500" height="300" style="border: 1px solid black;"></canvas>
+
+<script>
+  let canvas = document.getElementById("miCanvas");
+  let ctx = canvas.getContext("2d");
+
+  let x = 250; // Centre del canvas (horitzontal)
+  let y = 150; // Centre del canvas (vertical)
+  let radi = 50;
+
+  ctx.beginPath();
+  ctx.arc(x, y, radi, 0, Math.PI * 2);
+  
+  ctx.fillStyle = "orange";
+  ctx.fill(); // Omple el cercle
+  
+  ctx.lineWidth = 3;
+  ctx.strokeStyle = "black";
+  ctx.stroke(); // Dibuixa la vora
+
+  // --- NUEVA BOLA AÑADIDA ABAJO ---
+  ctx.beginPath();
+  ctx.arc(100, 75, 30, 0, Math.PI * 2); // Nueva posición (100, 75) y radio 30
+  ctx.fillStyle = "blue";
+  ctx.fill();
+  ctx.stroke();
+</script>
