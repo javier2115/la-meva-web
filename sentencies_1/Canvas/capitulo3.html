@@ -1,0 +1,16 @@
+<canvas id="miCanvas" width="500" height="300" style="border: 1px solid black;"></canvas>
+
+<script>
+  let canvas = document.getElementById("miCanvas");
+  let ctx = canvas.getContext("2d");
+
+  ctx.beginPath(); // Començar un nou traçat
+  ctx.moveTo(50, 50); // Moure el llapis (inici)
+  ctx.lineTo(200, 50); // Línia fins al punt X:200, Y:50
+  ctx.lineTo(200, 200); // Línia cap a baix
+  ctx.lineTo(50, 50); // Tornar a l'inici (crea un triangle)
+
+  ctx.lineWidth = 5; // Gruix de la línia
+  ctx.strokeStyle = "green"; // Color de la línia
+  ctx.stroke(); // Executar el dibuix (només la vora)
+</script>
