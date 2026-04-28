@@ -1,0 +1,21 @@
+.fondo, .fondo2, .fondo3 {
+    display: block;
+    padding: 10px;
+}
+
+
+.fondo {
+    background-color: blue;
+    width: 40%;
+}
+
+
+.fondo2 {
+    background-color: yellow;
+    width: 60%;
+}
+
+.fondo3 {
+    background-color: red;
+    width: 80%;
+}
