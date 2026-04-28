@@ -20,7 +20,7 @@
     color: blueviolet;
 }
 
-.todonegro {
+.black {
     background-color: black;
     color: black;
 }
@@ -31,7 +31,7 @@
 
 .rojoblanco {
     color: blanchedalmond;
-    background-color: red;
+    background-color: rgb(14, 121, 215);
 }
 
 .arial {
