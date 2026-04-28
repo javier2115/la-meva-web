@@ -1,28 +1,43 @@
-body {
-    font-family: Arial, sans-serif;
+.groc {
+    color: yellow;
+}
+ 
+.negrita {
     color: black;
 }
 
- .kodak {
-    color: gold;
+.fondoazul {
+    background-color: blue;
+    color: blanchedalmond;
 }
 
- .azul {
-    background-color: #1278AF;
-    color: white;
-    padding: 2px 4px;
+.fondoverde {
+    background-color: greenyellow;
+    color: blanchedalmond;
 }
 
- .morado {
-    color: rgb(128, 0, 128);
+.morado {
+    color: blueviolet;
 }
 
- 
-.verde {
-    background-color: rgba(0, 128, 0, 0.8);
-    color: white;
-    mix-blend-mode: multiply;
-    padding: 2px 4px;
+.todonegro {
+    background-color: black;
+    color: black;
 }
 
- 
+.rojo {
+    color: red;
+}
+
+.rojoblanco {
+    color: blanchedalmond;
+    background-color: red;
+}
+
+.arial {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.opacidad {
+    opacity: 0.5;
+}
